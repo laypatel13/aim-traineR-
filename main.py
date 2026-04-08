@@ -2,15 +2,15 @@ import time
 import random
 import math
 import pygame
-from target_class import Target
+from targetClass import Target
 pygame.init()
 
 WIDTH, HEIGHT = 800, 600
-BG_COLOR = (0, 25, 40)
+BG_COLOR = (0, 0, 0)
 LIVES = 3
 
 TOP_BAR_HEIGHT = 50
-LABEL_FONT = pygame.font.SysFont("comicsans", 24)
+LABEL_FONT = pygame.font.SysFont("timesnewroman", 24)
 
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -36,7 +36,7 @@ def format_time(secs):
     return f"{minutes:02d}:{seconds:02d}.{millisecs}"
 
 def draw_top_bar(window, elapsed_time, targets_pressed, misses):
-    pygame.draw.rect(window, "grey", (0, 0, WIDTH, TOP_BAR_HEIGHT))
+    pygame.draw.rect(window, "white", (0, 0, WIDTH, TOP_BAR_HEIGHT))
 
     time_label = LABEL_FONT.render(f"Time: {format_time(elapsed_time)}", 1, "black")
 
