@@ -5,7 +5,7 @@ A simple Python-based aim training game built using Pygame. This tool helps impr
 ---
 
 ## 🚀 Motivation
-Practicing aim is essential for improving performance in FPS games. This project provides a lightweight and fun way to train your reflexes and precision directly from your computer.
+Practicing aim is essential for improving performance in FPS games. This project provides a lightweight and fun way to train your reflexes and precision directly from your computer.I was learning about classes and OOP concepts, so instead of just writing boring examples, I thought — why not build something actually fun?
 
 ---
 
